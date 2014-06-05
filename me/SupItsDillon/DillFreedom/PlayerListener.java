@@ -9,7 +9,8 @@ import org.bukkit.event.player.PlayerJoinEvent;
 //Plugin imports etc..
 import me.SupItsDillon.DillFreedom.DillFreedom
  
-public class PlayerListener implements Listener{
+public class PlayerListener implements Listener
+{
  
         public DillFreedom plugin;
        
@@ -18,9 +19,10 @@ public class PlayerListener implements Listener{
         }
        
         @EventHandler(priority = EventPriority.HIGHEST)
-        public void onPlayerJoin(PlayerJoinEvent e){
-                e.getPlayer().sendMessage(ChatColor.RED+"This server is using DillFreedom!");
-                e.getPlayer().sendMessage(ChatColor.Red+ "To get the source go to github.com/SupItsDillon/DillFreedom");
+        public void onPlayerJoin(PlayerJoinEvent e)
+        {
+                e.getPlayer().sendMessage(ChatColor.RED + "This server is using DillFreedom!");
+                e.getPlayer().sendMessage(ChatColor.Red + "To get the source go to github.com/SupItsDillon/DillFreedom");
         }
        
        
