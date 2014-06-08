@@ -2,6 +2,7 @@ package me.SupItsDillon.DillFreedom;
 
 import net.pravian.bukkitlib.BukkitLib;
 import org.bukkit.plugin.PluginManager;
+import net.pravian.bukkitlib.implementation.BukkitPlugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 //Command imports
