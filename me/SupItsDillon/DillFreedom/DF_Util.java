@@ -2,7 +2,7 @@ package me.SupItsDillon.DillFreedom;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import me.StevenLawson.TotalFreedomMod.TFM_SuperadminList;
+import me.StevenLawson.TotalFreedomMod.TFM_AdminList;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
 import org.bukkit.command.CommandSender;
